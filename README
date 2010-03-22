@@ -1,0 +1,24 @@
+CitySelect
+==========
+
+City Select plugin is currently used for selection of the indian cities, based on the parameter(state name) which
+user parse... 
+
+
+
+Note
+====
+If you are not able to find the city name please update the city_name.rb file which is located inside the lib 
+folder of the application...
+
+Example
+=======
+<% form_for(@user) do |f| %> 
+ <%= f.city_select(:city, city = 'Maharashtra', options = {}, html_options = {}) %>
+ 
+  OR
+  
+ <%= city_select(:user, :city, city = 'Maharashtra', options = {}, html_options = {}) %>
+<%end%>
+
+
