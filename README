@@ -6,6 +6,7 @@ user parse...
 
 
 
+
 Note
 ====
 If you are not able to find the city name please update the city_name.rb file which is located inside the lib 
@@ -21,4 +22,5 @@ Example
  <%= city_select(:user, :city, city = 'Maharashtra', options = {}, html_options = {}) %>
 <%end%>
 
+Please visit "http://worldofopensource.blogspot.com/2010/03/cityselect-plugin-to-display-list-of.html" to see the Example using jQuery.
 
