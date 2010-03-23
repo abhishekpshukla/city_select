@@ -1,8 +1,8 @@
 # CitySelect
 include CitiesName
 module ActionView
-	module Helpers
-		module FormOptionsHelper
+  module Helpers
+    module FormOptionsHelper
 		
 			def city_select(object, method, selected_city='Maharashtra', options = {}, html_options = {})
 				selected_city = selected_city.gsub(" ","_").upcase
